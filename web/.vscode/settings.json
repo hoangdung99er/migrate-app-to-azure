@@ -30,6 +30,6 @@
     "venv.bak{,/**}",
     ".vscode{,/**}"
   ],
-  "appService.defaultWebAppToDeploy": "/subscriptions/dac919d0-841b-48ab-84a5-d1735c6aeeeb/resourceGroups/cloud-demo/providers/Microsoft.Web/sites/c3-app-service-dunglh10",
-  "appService.deploySubpath": "."
+  "appService.deploySubpath": ".",
+  "appService.defaultWebAppToDeploy": "/subscriptions/9f539354-ac81-4e3d-9082-b222d918d1bd/resourceGroups/cloud-demo/providers/Microsoft.Web/sites/c3-app-service-dunglh10"
 }

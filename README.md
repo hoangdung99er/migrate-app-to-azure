@@ -72,3 +72,14 @@ Complete a month cost analysis of each Azure resource to give an estimate total 
 The azure web app was already built out, I only had to change the environment variables within config.py and refactor the notification flow within app.py. Everything else was already configured. The costs are reasonable, outside of the PostgreSQL database, which is by far the most expensive part of the architecture. Creating a service bus namespace to handle the notifications is a good idea, but if it could all be saved to a less expensive database that would be the most straightforward way to lower costs.
 
 Other than changing up the database, everthing else is available at a reasonable cost.
+
+1. App Services
+- I choose this service for cost-effective on the system, one everything will be executed by Azure to automatically scale instances by using instead of lift and shift
+
+2. Postgres DB
+- I choose Postgres DB services to ease of automating the database creation, Simplicity of active passive setup and failover and simple multi-tenancy setup within the same database cluster.
+
+
+3. Services Bus
+- Cheap per data usage request
+- Hight Throughput I/O
